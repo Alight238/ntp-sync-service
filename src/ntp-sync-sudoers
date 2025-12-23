@@ -1,0 +1,2 @@
+user-13-63 ALL=(root) NOPASSWD: /usr/bin/chronyc -a makestep 1 1
+Defaults:user-13-63 !requiretty

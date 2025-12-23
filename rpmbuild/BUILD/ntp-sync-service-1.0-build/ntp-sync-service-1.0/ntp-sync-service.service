@@ -1,0 +1,15 @@
+[Unit]
+Description=NTP Time Synchronization Service by user-13-63
+After=network.target
+Wants=network.target
+
+[Service]
+Type=simple
+User=user-13-63
+Group=user-13-63
+ExecStart=/usr/local/bin/ntp-sync-service.sh
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
