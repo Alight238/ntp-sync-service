@@ -1,0 +1,25 @@
+# Конфиденциальные данные
+*.token
+*.secret
+.env
+*.key
+*.pem
+
+# Токены в любом виде
+*ghp_*
+*github_pat_*
+
+# RPM файлы
+*.rpm
+*.tar.gz
+
+# Директории сборки
+rpmbuild/RPMS/
+rpmbuild/SRPMS/
+rpmbuild/BUILD/
+rpmbuild/BUILDROOT/
+
+# Временные файлы
+*.swp
+*.bak
+*.tmp
