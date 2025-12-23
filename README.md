@@ -33,3 +33,8 @@ Course Project Status
 All requirements completed
 Service is running
 RPM package created
+ 
+Security Notes
+- SSH keys used for authentication
+- No tokens stored in repository
+- .gitignore excludes sensitive files
