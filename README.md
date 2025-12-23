@@ -28,3 +28,8 @@ gpgcheck=0" | sudo tee /etc/yum.repos.d/myrepo.repo
 
 # Install package
 sudo dnf install -y ntp-sync-service
+ 
+Course Project Status
+All requirements completed
+Service is running
+RPM package created
